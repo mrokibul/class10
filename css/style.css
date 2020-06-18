@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color: gray;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #f9f9f9;
+
+
+}
+
+.banner{
+    background-image: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+
+
+}
+
+.banner h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.banner span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #007dc5;
+
+}
+.banner p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.banner a{
+    background: transparent;
+    border: none;
+    border: 1px solid #007dc5;
+    padding: 13px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.banner a:hover{
+    background-color: #007dc5;
+    border: 1px solid transparent;
+}
+
+.banner .row{
+    min-height: 100vh;
+}
+
+.icon{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 50%;
+    transform: translateX(-%50);
+    top: 110%;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes updown{
+    0%{
+        top:110%
+    }
+    100%{
+        top: 120%
+    }
+
+
+}
+
+.simple-section{
+    background-color:#f9f9f9;
+    padding: 50px 0px;
+
+
+}
+.simple-section h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: gray;
+    
+
+}
+
+.simple-section p{
+    font-size: 15px;
+    color: gray;
+    
+
+}
+
+.feature{
+    padding: 50px 0px;
+
+
+}
+
+.feature-icon{
+    margin: auto;
+    width: 100px;
+    background:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+53,7db9e8+53,7db9e8+97 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 53%, #7db9e8 53%, #7db9e8 97%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 53%,#7db9e8 53%,#7db9e8 97%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 53%,#7db9e8 53%,#7db9e8 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    ;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+
+
+}
+.feature h3{
+    font-size: 20px;
+
+
+}
+.feature p{
+
+
+}
+
+
+
+
